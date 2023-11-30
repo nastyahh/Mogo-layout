@@ -1,0 +1,135 @@
+/* Responsive  */
+
+@media (max-width:1200px) {
+    .banner__subtitle {
+        font-size: 55px;
+    }
+    .banner__title {
+        font-size: 120px;
+        line-height: 150px;
+    }
+    .about {
+        gap: 15px;
+    }
+}
+
+@media (max-width:990px) {
+
+    .subtitle, .title {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .title {
+        line-height: 28px;
+        margin: 32px 0;
+    }
+    .section-text {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 50px;
+    }
+    .divider {
+        margin-bottom: 40px;
+    }
+    .header {
+        padding: 42px 0 80px;
+    }
+    .logo {
+        width: 65px;
+    }
+    .menu__list {
+        margin-right: 35px;
+        gap: 16px;
+    }
+    .menu__link {
+        font-size: 13px;
+    }
+    .menu-icons {
+        gap: 25px;
+    }
+    .menu-icons__link {
+        width: 20px;
+        height: 20px;
+    }
+    .banner__subtitle {
+        font-size: 47px;
+    }
+    .banner__title {
+        font-size: 87px;
+        line-height: 110px;
+    }
+    .banner__divider {
+        margin: 35px auto 50px;
+    }
+    .banner__btn {
+        font-size: 18px;
+        width: 318px;
+        height: 54px;
+        margin-bottom: 80px;
+    }
+    .banner-nav__item {
+        padding: 20px 0;
+    }
+    .banner-nav-number {
+        font-size: 24px;
+    }
+    .banner-nav__link {
+        font-size: 14px;
+    }
+    /* About Section  */
+    .about-us {
+        padding-bottom: 60px;
+    }
+    .statistics__item {
+        padding: 35px 30px;
+    }
+    .statistics__number {
+        font-size: 48px;
+        margin-bottom: 15px;
+    }
+    .statistics__text {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:720px) {
+    .banner__subtitle {
+        font-size: 43px;
+    }
+    .banner__title {
+        font-size: 70px;
+        line-height: 100px;
+    }
+    .about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-item {
+        /* width: 100%;
+        max-width: 410px; */
+    }
+}
+
+
+@media (max-width:585px) {
+    .banner__subtitle {
+        font-size: 36px;
+    }
+    .banner__title {
+        font-size: 50px;
+        line-height: 80px;
+    }
+}
+
+@media (max-width:426px) {
+    .banner__header {
+    }
+    .banner__subtitle {
+        font-size: 25px;
+    }
+    .banner__title {
+        font-size: 35px;
+        line-height: 80px;
+    }
+}
