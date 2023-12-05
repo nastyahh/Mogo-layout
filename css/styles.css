@@ -786,10 +786,8 @@ body {
     font-size: 18px;
     line-height: 21px;
 }
-.footer__textarea {
-    width: 234px;
-    height: 55px;
-    padding-top: 17px;
+.footer__input {
+    /* height: 55px; */
     text-align: center;
     border: 1px solid #C6CBCD;
 }
@@ -817,6 +815,7 @@ body {
 
 .footer__blogs {
     width: 42%;
+    padding: 0 15px;
 }
 .footer__item__title {
     font-size: 24px;
@@ -831,7 +830,7 @@ body {
     margin-bottom: 20px;
 }
 .footer__news__text {
-        width: 50%;
+    width: 50%;
     }
 .footer__news__img {
     max-width: 100%;
@@ -854,10 +853,12 @@ body {
     width: 27%;
 }
 .footer__inst__item {
-    /* width: 90px;
-    height: 88px; */
-    max-width: 100%;
-    height: auto;
+    width: 33.3333%;
+    
+}
+.footer__inst__item img {
+    width: 100%;
+    flex: 1 1 0;
 }
 .footer__inst__wrapper {
     display: flex;
@@ -874,7 +875,6 @@ body {
 .footer__inst__link:hover {
     border-bottom: 1px solid #2D3033;
 }
-
 .footer__copyright {
     padding-top: 15px;
     text-align: center;
